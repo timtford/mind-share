@@ -1,0 +1,306 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1C3465D416CB5A1300CFBD38 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C3465D316CB5A1300CFBD38 /* UIKit.framework */; };
+		1C3465D616CB5A1300CFBD38 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C3465D516CB5A1300CFBD38 /* Foundation.framework */; };
+		1C3465D816CB5A1300CFBD38 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C3465D716CB5A1300CFBD38 /* CoreGraphics.framework */; };
+		1C3465DE16CB5A1300CFBD38 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1C3465DC16CB5A1300CFBD38 /* InfoPlist.strings */; };
+		1C3465E016CB5A1300CFBD38 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C3465DF16CB5A1300CFBD38 /* main.m */; };
+		1C3465E416CB5A1300CFBD38 /* timAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C3465E316CB5A1300CFBD38 /* timAppDelegate.m */; };
+		1C3465E616CB5A1300CFBD38 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C3465E516CB5A1300CFBD38 /* Default.png */; };
+		1C3465E816CB5A1300CFBD38 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C3465E716CB5A1300CFBD38 /* Default@2x.png */; };
+		1C3465EA16CB5A1300CFBD38 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C3465E916CB5A1300CFBD38 /* Default-568h@2x.png */; };
+		1C3465ED16CB5A1300CFBD38 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C3465EB16CB5A1300CFBD38 /* MainStoryboard.storyboard */; };
+		1C3465F016CB5A1300CFBD38 /* timViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C3465EF16CB5A1300CFBD38 /* timViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1C3465D016CB5A1300CFBD38 /* mindShare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mindShare.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C3465D316CB5A1300CFBD38 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1C3465D516CB5A1300CFBD38 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1C3465D716CB5A1300CFBD38 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1C3465DB16CB5A1300CFBD38 /* mindShare-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "mindShare-Info.plist"; sourceTree = "<group>"; };
+		1C3465DD16CB5A1300CFBD38 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1C3465DF16CB5A1300CFBD38 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1C3465E116CB5A1300CFBD38 /* mindShare-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "mindShare-Prefix.pch"; sourceTree = "<group>"; };
+		1C3465E216CB5A1300CFBD38 /* timAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = timAppDelegate.h; sourceTree = "<group>"; };
+		1C3465E316CB5A1300CFBD38 /* timAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = timAppDelegate.m; sourceTree = "<group>"; };
+		1C3465E516CB5A1300CFBD38 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		1C3465E716CB5A1300CFBD38 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		1C3465E916CB5A1300CFBD38 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		1C3465EC16CB5A1300CFBD38 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		1C3465EE16CB5A1300CFBD38 /* timViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = timViewController.h; sourceTree = "<group>"; };
+		1C3465EF16CB5A1300CFBD38 /* timViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = timViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1C3465CD16CB5A1300CFBD38 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C3465D416CB5A1300CFBD38 /* UIKit.framework in Frameworks */,
+				1C3465D616CB5A1300CFBD38 /* Foundation.framework in Frameworks */,
+				1C3465D816CB5A1300CFBD38 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1C3465C716CB5A1300CFBD38 = {
+			isa = PBXGroup;
+			children = (
+				1C3465D916CB5A1300CFBD38 /* mindShare */,
+				1C3465D216CB5A1300CFBD38 /* Frameworks */,
+				1C3465D116CB5A1300CFBD38 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1C3465D116CB5A1300CFBD38 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1C3465D016CB5A1300CFBD38 /* mindShare.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1C3465D216CB5A1300CFBD38 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1C3465D316CB5A1300CFBD38 /* UIKit.framework */,
+				1C3465D516CB5A1300CFBD38 /* Foundation.framework */,
+				1C3465D716CB5A1300CFBD38 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1C3465D916CB5A1300CFBD38 /* mindShare */ = {
+			isa = PBXGroup;
+			children = (
+				1C3465E216CB5A1300CFBD38 /* timAppDelegate.h */,
+				1C3465E316CB5A1300CFBD38 /* timAppDelegate.m */,
+				1C3465EB16CB5A1300CFBD38 /* MainStoryboard.storyboard */,
+				1C3465EE16CB5A1300CFBD38 /* timViewController.h */,
+				1C3465EF16CB5A1300CFBD38 /* timViewController.m */,
+				1C3465DA16CB5A1300CFBD38 /* Supporting Files */,
+			);
+			path = mindShare;
+			sourceTree = "<group>";
+		};
+		1C3465DA16CB5A1300CFBD38 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1C3465DB16CB5A1300CFBD38 /* mindShare-Info.plist */,
+				1C3465DC16CB5A1300CFBD38 /* InfoPlist.strings */,
+				1C3465DF16CB5A1300CFBD38 /* main.m */,
+				1C3465E116CB5A1300CFBD38 /* mindShare-Prefix.pch */,
+				1C3465E516CB5A1300CFBD38 /* Default.png */,
+				1C3465E716CB5A1300CFBD38 /* Default@2x.png */,
+				1C3465E916CB5A1300CFBD38 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1C3465CF16CB5A1300CFBD38 /* mindShare */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C3465F316CB5A1300CFBD38 /* Build configuration list for PBXNativeTarget "mindShare" */;
+			buildPhases = (
+				1C3465CC16CB5A1300CFBD38 /* Sources */,
+				1C3465CD16CB5A1300CFBD38 /* Frameworks */,
+				1C3465CE16CB5A1300CFBD38 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = mindShare;
+			productName = mindShare;
+			productReference = 1C3465D016CB5A1300CFBD38 /* mindShare.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1C3465C816CB5A1300CFBD38 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = tim;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Timothy Ford";
+			};
+			buildConfigurationList = 1C3465CB16CB5A1300CFBD38 /* Build configuration list for PBXProject "mindShare" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1C3465C716CB5A1300CFBD38;
+			productRefGroup = 1C3465D116CB5A1300CFBD38 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1C3465CF16CB5A1300CFBD38 /* mindShare */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1C3465CE16CB5A1300CFBD38 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C3465DE16CB5A1300CFBD38 /* InfoPlist.strings in Resources */,
+				1C3465E616CB5A1300CFBD38 /* Default.png in Resources */,
+				1C3465E816CB5A1300CFBD38 /* Default@2x.png in Resources */,
+				1C3465EA16CB5A1300CFBD38 /* Default-568h@2x.png in Resources */,
+				1C3465ED16CB5A1300CFBD38 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1C3465CC16CB5A1300CFBD38 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C3465E016CB5A1300CFBD38 /* main.m in Sources */,
+				1C3465E416CB5A1300CFBD38 /* timAppDelegate.m in Sources */,
+				1C3465F016CB5A1300CFBD38 /* timViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1C3465DC16CB5A1300CFBD38 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1C3465DD16CB5A1300CFBD38 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1C3465EB16CB5A1300CFBD38 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1C3465EC16CB5A1300CFBD38 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1C3465F116CB5A1300CFBD38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1C3465F216CB5A1300CFBD38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1C3465F416CB5A1300CFBD38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "mindShare/mindShare-Prefix.pch";
+				INFOPLIST_FILE = "mindShare/mindShare-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1C3465F516CB5A1300CFBD38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "mindShare/mindShare-Prefix.pch";
+				INFOPLIST_FILE = "mindShare/mindShare-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1C3465CB16CB5A1300CFBD38 /* Build configuration list for PBXProject "mindShare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C3465F116CB5A1300CFBD38 /* Debug */,
+				1C3465F216CB5A1300CFBD38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1C3465F316CB5A1300CFBD38 /* Build configuration list for PBXNativeTarget "mindShare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C3465F416CB5A1300CFBD38 /* Debug */,
+				1C3465F516CB5A1300CFBD38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1C3465C816CB5A1300CFBD38 /* Project object */;
+}
